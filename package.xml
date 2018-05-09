@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>stereo_snapshot</name>
+  <version>0.1.0</version>
+  <description>Small package for taking snapshots from a stereo camera.</description>
+
+  <maintainer email="t.fromm@jacobs-university.de">Tobias Doernbach</maintainer>
+
+  <license>EuPL v1.2</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>image_transport</build_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>message_filters</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>image_transport</run_depend>
+
+  <export>
+  </export>
+</package>
